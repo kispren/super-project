@@ -1,0 +1,153 @@
+/*
+Test
+Kis comment
+------
+on fait mumuse avec les couleurs
+*/
+/* On travaille sur la balise body, donc sur TOUTE la page */
+body
+{
+    background-image: url("images/background.png"); 
+    background-attachment: fixed; /* Le fond restera fixe */
+}
+
+
+}
+
+#ContenurPrincipal {}
+
+#Tableau {
+	color : black;
+	font-size: 18px;
+	background-color: rgb(233,182,124);
+	border: 5px solid orange;
+	display: inline-block;
+	border-collapse: collapse;
+}
+table
+{
+    border-collapse: collapse;
+}
+td, th 
+{
+    border: 1px solid black;
+}
+
+#Article
+{
+	color: red;
+	font-size: 72px;
+	font-family: 'GreatVibes-Regular', Courier New;
+}
+
+#Balises{
+	float: left;
+}
+
+#ChickenDog
+{
+    float: right;
+    color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Menu{
+	background-color: rgb(233,182,124);
+	display: inline-block;
+	width: 350px;
+    border: 3px solid orange;
+    text-align: justify;
+    margin-left: 50px;
+    padding: 12px;
+   	word-wrap: break-word;
+}
+#TitresPrincipaux {
+	background-color: rgb(233,182,124);
+	width: 350px;
+    border: 2px solid orange;
+    text-align: justify;
+    margin-bottom : 50px;
+    padding: 12px;
+    margin: auto;
+   	word-wrap: break-word;
+}
+#LaSuite{
+	background-color: rgb(233,182,124);
+	width: 500px;
+    border: 1px solid orange;
+    text-align: justify;
+    padding: 12px;
+    margin: auto;
+    margin-top: 50px;
+    word-wrap: break-word;
+}
+.legend {
+    margin-right: 15px;
+}
+
+header,footer
+{
+	color:white;
+	font-size: 30px;
+}
+
+em
+{
+	color: green;
+}
+
+.introduction
+{
+    color: grey;
+}
+.salutations
+{
+	color: red;
+}
+
+h6:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+   background-color: #FFCC66;
+}
+
+h6:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: black; /* Appliquer une couleur grise */
+}
+
+p
+{
+    color: black;
+    font-size: 16px;
+    font-family: Courier New;
+    text-shadow: 2px 2px 4px rgb(40,35,68);
+    opacity: 1;
+}
+
+:required
+{
+    background-color: orange;
+}
+
+/*
+test2
+*/
+a[title="Cliquez ici"]
+{
+
+}
+
+#center{
+text-align: center;
+}
+
+@font-face {
+    font-family: 'GreatVibes-Regular';
+    src: url('GreatVibes-Regular.otf') format('otf'),
+         url('GreatVibes-Regular.woff') format('woff'),
+         url('GreatVibes-Regular.ttf') format('truetype'),
+         url('GreatVibes-Regular.svg') format('svg');
+}

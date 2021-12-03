@@ -1,0 +1,21 @@
+p {
+    color: yellow;
+}
+.test {
+    color: magenta;
+}
+
+#Tableau {
+	border: 2px solid orange;
+	display: inline-block;
+	border-collapse: separate;
+	padding: 5px;
+}
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
