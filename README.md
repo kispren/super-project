@@ -1,6 +1,6 @@
-### super-project
+# super-project
 
-# projet collaboratif
+## projet collaboratif
 
-# on teste les branches.
-# ajouter un .gitignore
+### on teste les branches.
+### ajouter un .gitignore
